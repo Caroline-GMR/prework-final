@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 14px;
+  margin: 0;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 10px 5px 10px;
+  height: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  width: 100%;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+padding: 0 10px;
+float: left;
+}
+
+.top-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 20px 0 0;
+  float: right;
+}
+
+.top-links li {
+  display: block;
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+.header {
+background-color: rgb(34, 94, 127);
+position: absolute;
+height: 85%;
+padding: 0px 5px 0;
+width: 100%;
+margin: 0px;
+}
+
+.logo {
+width: 80px;
+padding: 10px 5px;
+float: left;
+}
+
+.search-bar {
+color: white;
+background-color: rgb(39, 82, 107);
+height: 20px;
+outline: none;
+padding: 3px 5px 0;
+margin: 10px 0 0;
+width: 80%;
+border: 1px solid rgb(52, 121, 156);
+font-size: 12px;
+float: left;
+}
+
+.search-btn {
+border: 1px solid rgb(52, 121, 156);
+border-left: none;
+background-color: rgb(39, 82, 107);
+color:  rgba(255,255,255,0.8);
+padding: 4px 8px;
+margin: 10px 0 0;
+height: 25px;
+}
+
+.top-login {
+  font-size: 10px;
+  color: rgba(255,255,255,0.8);
+  margin: 0 2px;
+}
+
+.bear-logo {
+  position: absolute;
+  float: right;
+  width: 25px;
+  margin: 8px 0;
+}
+
+.box-signup {
+  width: 34%;
+  margin: 6em 18em;
+}
+
+.box-signup h1{
+margin: 0;
+}
+
+.box-signup p{
+ margin: 2em 0;
+}
+
+.sign-up-btn {
+background-color: rgb(240, 146, 51);
+text-decoration: none;
+font-size: 18px;
+padding: 5px 25px;
+border-radius: 25px;
+margin: 0;
+}
+
+.city-scape-img {
+background-image: url("https://svgshare.com/i/7jX.svg");
+background-repeat: no-repeat;
+background-size: cover;
+margin: -3px;
+height: 100%;
+}
+
+#box-signup-orgs {
+position: relative;
+background-color: rgb(39, 53, 71);
+margin: 468px 0;
+width: 100%;
+height: 600px;
+}
+
+#box-signup-orgs h1{
+margin: 20px 60px;
+width: 50px;
+}
+
+.collaboration-img {
+width: 48%;
+margin: 140px 0 0 140px;
+height: 48%;
+}
+
+.signup-orgs-btn {
+background-color: rgb(203, 56, 55);
+text-decoration: none;
+font-size: 18px;
+padding: 5px 25px;
+border-radius: 25px;
+margin: 0px;
+}
+
+.content-signup-orgs{
+position: relative;
+line-height: 1.5;
+float: right;
+margin: 120px 220px 0 -270px;
+width: 30%;
+}
+
+#box-install {
+position: absolute;
+background-image: url("https://svgshare.com/i/7j_.svg");
+height: 500px;
+width: 100%;
+margin: -470px 0 0 0;
+}
+
+.content-install {
+float: left;
+margin: 100px 0 0 250px;
+width: 300px;
+}
+
+.install-btn {
+position: absolute;
+background-color: rgb(203, 56, 55);
+text-decoration: none;
+font-size: 18px;
+padding: 5px 25px;
+border-radius: 25px;
+margin: 10px 0;
+}
+
+#box-about {
+position: relative;
+background-color: white;
+color:rgb(135, 145, 156);
+height: 550px;
+}
+
+.content-about {
+padding: 80px 440px 0;
+width: 100%;
+}
+
+.content-about h1{
+color: rgb(83, 88, 98);
+font-weight: lighter;
+margin: 0 -5px;
+}
+
+.box {
+position: relative;
+float: left;
+width: 33%;
+margin: 0 auto;
+}
+
+.box h1 {
+position: relative;
+float: center;
+margin: 0 auto;
+width: 33%;
+}
+
+.find a{
+color: rgb(208, 74, 73);
+text-decoration: none;
+}
+
+.img-about {
+position: relative;
+padding: 20px 110px;
+margin: 0 auto;
+width: 33%;
+}
+
+.clearfix { 
+clear: both; 
+}
